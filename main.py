@@ -36,3 +36,11 @@ else:
 
 # Task 5
 
+num1 = int(input('Please enter any integer: '))
+num2 = int(input('Please enter another integer: '))
+
+div = num1%num2
+if div == 0:
+    print('The numbers you entered are divisible by one another.')
+else:
+    print('The numbers you entered are not divisble by one another.')
